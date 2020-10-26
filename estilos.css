@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: url(img/peru.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+main {
+    float: left;
+    margin-left: 15%;
+    width: 70%;
+    height: 140vh;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(8, 248, 236);
+    text-shadow: 5px 5px 5px rgb(8, 4, 4);
+    font-size: 4em;
+    padding: 2%;
+    margin: 2%;
+}
+
+#inicio {
+    width: 100%;
+    height: 27%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+article {
+    width: 100%;
+    height: 27%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#portada {
+    width: 60%;
+    height: 95%;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto {
+    padding: 0 3% 0 3%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#texto_portada {
+    width: 37%;
+    height: 95%;
+    margin: 0 auto;
+}
+
+.contenedor {
+    margin-left: 1.5%;
+    width: 23%;
+    height: 90%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px;
+}
+
+.fotos_cuerpo {
+    padding-top: 2%;
+    width: 95%;
+    height: 80%;
+    margin: 0 auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.contenedor2 {
+    margin-left: 2.5%;
+    width: 30%;
+    height: 95%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px;
+}
+
+.fotos_cuerpo2 {
+    padding-top: 3%;
+    width: 100%;
+    height: 48%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+@media (max-width: 1600px) {
+    .titulo {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 1280px) {
+    main {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 968px) {
+    main {
+        height: 300vh;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    #inicio {
+        height: 22%;
+        flex-direction: column;
+    }
+    #portada {
+        width: 90%;
+        height: 70%;
+    }
+    #texto_portada {
+        width: 90%;
+        height: 30%;
+    }
+    article {
+        flex-wrap: wrap;
+        height: 32%;
+    }
+    .contenedor {
+        width: 40%;
+        height: 40%;
+        margin: 0 auto;
+    }
+    .contenedor2 {
+        width: 40%;
+        height: 45%;
+        margin: 0 auto;
+    }
+    .fotos_cuerpo2 {
+        height: 60%;
+    }
+}
+
+@media (max-width: 360px) {
+    main {
+        height: 520vh;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    #inicio {
+        height: 15%;
+    }
+    #portada {
+        width: 90%;
+        height: 40%;
+    }
+    article {
+        height: 40%;
+    }
+    .contenedor {
+        width: 80%;
+        height: 22%;
+    }
+    .fotos_cuerpo {
+        height: 75%;
+    }
+    .titulo {
+        font-size: 1em;
+    }
+    .contenedor2 {
+        width: 80%;
+        height: 25%;
+    }
+    .fotos_cuerpo2 {
+        height: 40%;
+    }
+}
